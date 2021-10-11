@@ -1,4 +1,4 @@
-class profile::ntpd {
+class profile::ntp {
   include ntp
 }
 class { 'ntp':
