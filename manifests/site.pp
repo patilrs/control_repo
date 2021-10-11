@@ -1,6 +1,5 @@
 node default {
-  file {'/root/README':
-  ensure => file,
-  content => 'This is first puppet deploy',
 }
+node 'node1.localdomain' {
+  include role:master_server
 }
