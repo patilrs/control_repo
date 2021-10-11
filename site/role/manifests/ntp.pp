@@ -1,3 +1,3 @@
 class role::ntp {
-  include profile::ntpd
+  include profile::ntp
 }
