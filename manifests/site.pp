@@ -1,5 +1,5 @@
 node default {
 }
-node 'node1.localdomain' {
+node 'node1' {
   include role:master_server
 }
