@@ -1,6 +1,6 @@
 node default {
 }
 node 'agent1' {
-  include role::master_server
+  include role::agent1
 }
 
