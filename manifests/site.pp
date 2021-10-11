@@ -1,6 +1,6 @@
 node default {
 }
 node 'agent1' {
-  include role::agent1
+  include role::apache
 }
 
