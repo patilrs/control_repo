@@ -1,4 +1,6 @@
 class profile::ntpd {
   include ntp
-    ntp:: 
+    class { 'ntp':
+    servers => [ 'ntp1.corp.com', 'ntp2.corp.com' ],
+}
 }
