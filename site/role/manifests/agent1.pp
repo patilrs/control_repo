@@ -1,3 +1,3 @@
-class role:agent1 {
+class role::agent1 {
   include profile::basic
 }
